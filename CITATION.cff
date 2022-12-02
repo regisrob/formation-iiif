@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "Module de formation IIIF"
+message: "If you use these contents, please cite it as below."
+authors:
+  - family-names: Robineau
+    given-names: Régis
+    orcid: https://orcid.org/0000-0001-8556-9586
+    affiliation: École Pratique des Hautes Études (ÉquipEx Biblissima+)
+date-released: 2022-12-02

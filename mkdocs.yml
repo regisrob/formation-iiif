@@ -1,0 +1,76 @@
+site_name: Formation IIIF
+site_url: https://doc.biblissima.fr/formation-iiif
+site_description: Formation IIIF
+site_author: Régis Robineau
+copyright: Régis Robineau - Licence Ouverte / Open License 2.0
+repo_url: https://github.com/regisrob/formation-iiif
+repo_name: Github
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: fr
+  palette:
+    primary: teal
+    accent: teal
+  features:
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    #- navigation.expand
+    - toc.follow
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+   #generator: false
+   analytics:
+     provider: matomo # uncomment to enable matomo
+     #property: foobar
+
+markdown_extensions:
+  - toc:
+      permalink: True
+  - sane_lists
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - admonition
+  - footnotes
+  - smarty
+  - tables
+  - pymdownx.details
+
+plugins:
+  - search
+#   - git-revision-date-localized
+
+nav:
+  - Préambule: index.md
+  - Introduction à IIIF: 
+    - intro/index.md
+  - API Image:
+    - Introduction: api-image/index.md
+    - Paramètres:
+      - api-image/identifier.md
+      - api-image/region.md
+      - api-image/size.md
+      - api-image/rotation.md
+      - api-image/quality.md
+      - api-image/format.md
+    - Exercices: api-image/exercices.md
+    - Implémentation: api-image/implementation.md
+    - Usages et démos: api-image/demos-usages.md
+  - API Présentation:
+    - Introduction: api-presentation/index.md
+    - api-presentation/exemples-demos.md
+    - api-presentation/implementation.md
+    - api-presentation/exercices.md
+  - Autres API IIIF:
+    - autres-api/index.md
+  - Ateliers:
+    - ateliers/atelier-1.md
+    - ateliers/atelier-2.md
+  - Crédits: credits.md

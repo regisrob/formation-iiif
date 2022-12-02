@@ -1,0 +1,22 @@
+.demo {
+  list-style: none;
+  margin-left: 0 !important;
+}
+.demo li {
+  display: inline-block;
+}
+.identifier {
+    max-width:300px;
+}
+.region {
+    max-width:100px;
+}
+.highlight {
+    background-color: LemonChiffon;
+    box-shadow: 0.5px 0.5px 5px gray;
+    border: none;
+}
+
+.admonition.tip {
+    font-size: .75rem;
+}
