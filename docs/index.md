@@ -1,5 +1,9 @@
 # Préambule
 
+Ce site a servi de support à la formation à IIIF organisée le mercredi 30 novembre 2022 (9h30-17h30) dans le cadre des [premières journées annuelles du Cluster 1](https://projet.biblissima.fr/fr/actualites/journees-annuelles-2022-cluster-1-acquisition-corpus-sources-interoperables) de l'ÉquipEx Biblissima+.
+
+Formateur et auteur du site : **Régis Robineau**.
+
 ## Objectifs de la formation
 
 Cette formation s'adresse à toute personne intéressée par IIIF, curieuse d'en comprendre les enjeux et le fonctionnement, et désireuse de s'exercer par la pratique aux usages qui peuvent en être faits. Elle n'est pas conçue comme un véritable workshop : nous n'allons pas travailler autour d'un cas pratique (commun ou individuel) servant de fil conducteur à la journée.
@@ -29,11 +33,9 @@ Il est également conseillé de commencer la formation dans une nouvelle fenêtr
 
 ### Matin
 
-1. Préambule et tour de table (5 min)
+1. Introduction à IIIF (15 min)
 
-2. Introduction à IIIF (15 min)
-
-3. L'API Image (55 min)
+2. L'API Image (55 min)
 
     - Présentation détaillée 
     - Exercices
@@ -43,7 +45,7 @@ Il est également conseillé de commencer la formation dans une nouvelle fenêtr
 
 _10h35 : Pause (10 min)_
 
-4. L'API Présentation (1h40)
+3. L'API Présentation (1h40)
 
     - Présentation détaillée
     - Exemples et démos
