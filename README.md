@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/573533876.svg)](https://zenodo.org/badge/latestdoi/573533876)
+
 # Formation à IIIF
 
 Ce dépôt contient les fichiers source du module de formation à IIIF créé par Régis Robineau dans le cadre du [Cluster 1](https://projet.biblissima.fr/fr/projet/clusters-biblissima/cluster-1) de l'ÉquipEx Biblissima+ (ANR-21-ESRE-0005).
