@@ -4,6 +4,10 @@ Ce site a servi de support à la formation à IIIF organisée le mercredi 30 nov
 
 Formateur et auteur du site : **Régis Robineau**.
 
+!!! info ""
+
+    Ce travail a bénéficié d'une aide de l’État gérée par l'Agence Nationale de la Recherche au titre du programme d’Investissements d’avenir portant la référence « ANR-21-ESRE-0005 » ([ÉquipEx Biblissima+](https://projet.biblissima.fr)).
+
 ## Objectifs de la formation
 
 Cette formation s'adresse à toute personne intéressée par IIIF, curieuse d'en comprendre les enjeux et le fonctionnement, et désireuse de s'exercer par la pratique aux usages qui peuvent en être faits. Elle n'est pas conçue comme un véritable workshop : nous n'allons pas travailler autour d'un cas pratique (commun ou individuel) servant de fil conducteur à la journée.
