@@ -49,11 +49,13 @@ $ opj_compress -i [input_file] -o [output_file] -r 1 -n 7 -c [256,256],[256,256]
 $ opj_compress -i [input_file] -o [output_file] -r 8 -n 7 -c [256,256],[256,256],[256,256],[256,256],[256,256],[256,256],[256,256],[128,128] -t 512,512 -p RPCL -b 64,64 -SOP -EPH -TP R -PLT
 ```
 
+Voir un exemple de script de conversion en masse vers JPEG2000 : [https://github.com/regisrob/convert_jp2/](https://github.com/regisrob/convert_jp2/).
+
 #### Pour TIFF Pyramidal
 
 Quelques librairies :
 
-- [Libvips](https://www.libvips.org) (libre)
+- [Libvips](https://www.libvips.org)
 - [libtiff](https://gitlab.com/libtiff/libtiff)
 - [ImageMagick](https://imagemagick.org)
 
@@ -72,6 +74,8 @@ Voir aussi :
 - [Bodleian JPEG2000 Profile](https://image-processing.readthedocs.io/en/latest/jp2_profile.html) (Kakadu)
 - [serverless-iiif - Creating tiled TIFFs](https://github.com/samvera/serverless-iiif#creating-tiled-tiffs)
 
+Pour une étude comparative de différents formats d'image et de libraires d'encodage/décodage, voir l'article : Robson G., Cossu S., Pillay R., Smith, M. D., [_Evaluating HTJ2K as a Drop-In Replacement for JPEG2000 with IIIF_](https://journal.code4lib.org/articles/17596), _Code4Lib_, Issue 57, 2023.
+
 
 ## Types d'implémentation
 
@@ -86,13 +90,14 @@ Parmi les serveurs d'images IIIF les plus répandus dans la communauté, on peut
 - [IIPImage](http://iipimage.sourceforge.net) (C++)
 - [Cantaloupe](https://cantaloupe-project.github.io) (Java)
 
-Une alternative pour bénéficier de l'API Image est de recourir à une plateforme dédiée et proposée à titre gratuit ou payant par une institution ou un prestataire de services. Citons par exemple :
+Une alternative pour bénéficier de l'API Image est de recourir à une plateforme tierce et proposée à titre gratuit ou payant par une institution ou un prestataire de services. Citons par exemple :
 
 - [Internet Archive](https://archive.org)
 - [IIIF Hosting](https://www.iiifhosting.com) (Klokan technologies GmbH)
 - [DLCS](https://dlcs.info) (Digirati)
 - [Nakala](https://www.nakala.fr) (IR* Huma-Num, CNRS)
 - [SharedCanvas.be](https://sharedcanvas.be) (UGent)
+- [Zenodo](https://zenodo.org) (CERN)
 - et beaucoup d'autres [solutions d'éditeurs de logiciels](https://iiif.io/get-started/vendors/)
 
 ### Statique

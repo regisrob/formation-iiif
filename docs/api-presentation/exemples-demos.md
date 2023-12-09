@@ -1,30 +1,38 @@
 # Exemples et démos
 
-## Canevas (cas "complexes")
 
-Voyons quelques exemples de Manifestes avancés dans lesquels la notion de Canevas prend tout son sens :
+## Construction d'un Manifeste pas à pas
+
+A titre d'exemple, construisons manuellement un Manifeste IIIF afin d'en comprendre la structure et les différentes composantes.
+
+Manifeste d'exemple (version finale) : [manifest_demo.json](https://gist.githubusercontent.com/regisrob/92061c1c98f6eba75900bce30de7d24d/raw/5f8be194423dce4d53801f1bd123a40c4eb86329/manifest_demo.json)
+
+
+## Manifestes "complexes"
+
+Voyons quelques exemples de Manifestes dans lesquels la notion de Canevas prend tout son sens :
 
 1. Canevas vides (pages manquantes) :
 
-    - _Biblissima_: Reconstruction virtuelle d'un manuscrit dispersé (« Florus dispersus ») | [Page web](https://demos.biblissima.fr/florus/#florus-dispersus) -- [Manifeste JSON (v2)](https://demos.biblissima.fr/iiif/metadata/florus-dispersus/manifest.json) -- [Ouvrir dans Mirador](https://portail.biblissima.fr/m3/?theme=dark&context=collection&iiif-content=https://demos.biblissima.fr/iiif/metadata/florus-dispersus/manifest.json)
+    - _Biblissima_: Reconstruction virtuelle d'un manuscrit dispersé (« Florus dispersus ») | [Page web](https://demos.biblissima.fr/florus/#florus-dispersus) -- [Manifeste JSON (v2)](https://demos.biblissima.fr/iiif/metadata/florus-dispersus/manifest.json) -- [Ouvrir dans Mirador](https://portail.biblissima.fr/m3/?theme=dark&iiif-content=https://demos.biblissima.fr/iiif/metadata/florus-dispersus/manifest.json)
 
 2. Un Canevas, plusieurs images (fragment) :
 
-    - _Biblissima_ : Reconstruction virtuelle (partielle) d'un manuscrit mutilé (Châteauroux, BM, ms. 5) | [Page web](https://demos.biblissima.fr/chateauroux/) -- [Manifeste JSON (v2)](https://demos.biblissima.fr/iiif/metadata/BVMM/chateauroux/manifest.json) -- [Ouvrir dans Mirador](https://portail.biblissima.fr/m3/?theme=dark&context=collection&iiif-content=https://demos.biblissima.fr/iiif/metadata/BVMM/chateauroux/manifest.json)
+    - _Biblissima_ : Reconstruction virtuelle (partielle) d'un manuscrit mutilé (Châteauroux, BM, ms. 5) | [Page web](https://demos.biblissima.fr/chateauroux/) -- [Manifeste JSON (v2)](https://iiif.biblissima.fr/chateauroux/B360446201_MS0005/manifest.json) -- [Ouvrir dans Mirador](https://portail.biblissima.fr/m3/?theme=dark&iiif-content=https://iiif.biblissima.fr/chateauroux/B360446201_MS0005/manifest.json)
     
 ![Schéma démo Châteauroux](img/api-presentation-canvas-chateauroux.png)
 
 3. Un Canevas, plusieurs images (images multispectrales) + annotations textuelles :
 
-    - _Library of Congress_ : Lettre numérisée par imagerie hyperspectrale, avec affichage de la transcription du texte et des différentes couches d'image | [Manifeste JSON (v2)](https://dvp.prtd.app/hamilton/manifest.json) -- [Ouvrir dans Mirador](https://portail.biblissima.fr/m3/?theme=dark&context=collection&iiif-content=https://dvp.prtd.app/hamilton/manifest.json)
+    - _Library of Congress_ : Lettre numérisée par imagerie hyperspectrale, avec affichage de la transcription du texte et des différentes couches d'image | [Manifeste JSON (v2)](https://dvp.prtd.app/hamilton/manifest.json) -- [Ouvrir dans Mirador](https://portail.biblissima.fr/m3/?theme=dark&iiif-content=https://dvp.prtd.app/hamilton/manifest.json)
 
 4. Un Canevas, plusieurs images (rabat, élément dépliable) :
 
-    - _Durham University_ : Page de manuscrit avec rabat | [Page web](https://iiif.durham.ac.uk/index.html?manifest=t1mz029p473h&canvas=t1t05741s32v) -- [Manifeste JSON (v2)](https://iiif.durham.ac.uk/manifests/trifle/32150/t1/mz/02/t1mz029p473h/manifest) -- [Ouvrir dans Mirador](https://portail.biblissima.fr/m3/?theme=dark&context=collection&iiif-content=https://iiif.durham.ac.uk/manifests/trifle/32150/t1/mz/02/t1mz029p473h/manifest)
+    - _Durham University_ : Page de manuscrit avec rabat | [Page web](https://iiif.durham.ac.uk/index.html?manifest=t1mz029p473h&canvas=t1t05741s32v) -- [Manifeste JSON (v2)](https://iiif.durham.ac.uk/manifests/trifle/32150/t1/mz/02/t1mz029p473h/manifest) -- [Ouvrir dans Mirador](https://portail.biblissima.fr/m3/?theme=dark&iiif-content=https://iiif.durham.ac.uk/manifests/trifle/32150/t1/mz/02/t1mz029p473h/manifest)
 
 5. Un Canevas annoté avec du texte :
 
-    - _Bodleian Library, Oxford_ : Manuscrit arabe illustré, portant de nombreuses annotations IIIF de formes diverses (voir fols. 2b and 3a) | [Page web](https://digital.bodleian.ox.ac.uk/objects/748a9d50-5a3a-440e-ab9d-567dd68b6abb/) -- [Manifeste JSON (v2)](https://iiif.bodleian.ox.ac.uk/iiif/manifest/748a9d50-5a3a-440e-ab9d-567dd68b6abb.json) -- [Ouvrir dans Mirador](https://portail.biblissima.fr/m3/?theme=dark&context=collection&iiif-content=https://iiif.bodleian.ox.ac.uk/iiif/manifest/748a9d50-5a3a-440e-ab9d-567dd68b6abb.json)
+    - _Bodleian Library, Oxford_ : Manuscrit arabe illustré, portant de nombreuses annotations IIIF de formes diverses (voir fols. 2b and 3a) | [Page web](https://digital.bodleian.ox.ac.uk/objects/748a9d50-5a3a-440e-ab9d-567dd68b6abb/) -- [Manifeste JSON (v2)](https://iiif.bodleian.ox.ac.uk/iiif/manifest/748a9d50-5a3a-440e-ab9d-567dd68b6abb.json) -- [Ouvrir dans Mirador](https://portail.biblissima.fr/m3/?theme=dark&iiif-content=https://iiif.bodleian.ox.ac.uk/iiif/manifest/748a9d50-5a3a-440e-ab9d-567dd68b6abb.json)
 
 
 ## Collections
@@ -41,18 +49,18 @@ Quelques exemples d'usages variés des Collections IIIF :
 
 3. Une collection ancienne de manuscrits :
 
-    - _Biblissima_ : une Collection générée dynamiquement regroupant des Manifestes de plusieurs bibliothèques (bibliothèque médiévale dispersée) | [Page web](https://portail.biblissima.fr/fr/ark:/43093/coldata5151005ea5833e5a05e2639cbb210946cb7e0609) -- [Collection JSON (v2)](https://portail.biblissima.fr/iiif/collection/ark:/43093/coldata5151005ea5833e5a05e2639cbb210946cb7e0609) -- [Ouvrir dans Mirador](https://portail.biblissima.fr/m3/?theme=dark&context=collection&iiif-content=https://portail.biblissima.fr/iiif/collection/ark:/43093/coldata5151005ea5833e5a05e2639cbb210946cb7e0609)
+    - _Biblissima_ : une Collection générée dynamiquement regroupant des Manifestes de plusieurs bibliothèques (bibliothèque médiévale dispersée) | [Page web](https://portail.biblissima.fr/fr/ark:/43093/coldata5151005ea5833e5a05e2639cbb210946cb7e0609) -- [Collection JSON (v2)](https://portail.biblissima.fr/iiif/collection/ark:/43093/coldata5151005ea5833e5a05e2639cbb210946cb7e0609) -- [Ouvrir dans Mirador](https://portail.biblissima.fr/m3/?theme=dark&iiif-content=https://portail.biblissima.fr/iiif/collection/ark:/43093/coldata5151005ea5833e5a05e2639cbb210946cb7e0609)
     
 4. Un ensemble de témoins manuscrits portant des oeuvres de l'érudit anglais du 13e siècle Robert Grosseteste :
 
-    - _Biblissima_ : une Collection générée à partir d'une sélection faite parmi une liste de résultats du moteur IIIF-Collections | [Page web](https://iiif.biblissima.fr/collections/mirador?collection=https://iiif.biblissima.fr/collections/collection/6374e2e7204ef403870f00f2) -- [Collection JSON (v2)](https://iiif.biblissima.fr/collections/collection/6374e2e7204ef403870f00f2) -- [Ouvrir dans Mirador](https://portail.biblissima.fr/m3/?theme=dark&context=collection&iiif-content=https://iiif.biblissima.fr/collections/collection/6374e2e7204ef403870f00f2)
+    - _Biblissima_ : une Collection générée à partir d'une sélection faite parmi une liste de résultats du moteur IIIF-Collections | [Page web](https://iiif.biblissima.fr/collections/mirador?collection=https://iiif.biblissima.fr/collections/collection/6374e2e7204ef403870f00f2) -- [Collection JSON (v2)](https://iiif.biblissima.fr/collections/collection/6374e2e7204ef403870f00f2) -- [Ouvrir dans Mirador](https://portail.biblissima.fr/m3/?theme=dark&iiif-content=https://iiif.biblissima.fr/collections/collection/6374e2e7204ef403870f00f2)
 
 
 ## Manifestes "remix"
 
-1. Biblissima - Collection d'enluminures portant une représentation de comètes : [Page web](https://portail.biblissima.fr/ark:/43093/descdbf571c2dcac868496312bf36d449401e4ac0af4) -- [Manifeste JSON (v2)](https://portail.biblissima.fr/iiif/manifest/ark:/43093/descdbf571c2dcac868496312bf36d449401e4ac0af4) -- [Ouvrir dans Mirador](https://portail.biblissima.fr/m3/?theme=dark&context=collection&iiif-content=https://portail.biblissima.fr/iiif/manifest/ark:/43093/descdbf571c2dcac868496312bf36d449401e4ac0af4)
+1. Biblissima - Collection d'enluminures portant une représentation de comètes : [Page web](https://portail.biblissima.fr/ark:/43093/descdbf571c2dcac868496312bf36d449401e4ac0af4) -- [Manifeste JSON (v2)](https://portail.biblissima.fr/iiif/manifest/ark:/43093/descdbf571c2dcac868496312bf36d449401e4ac0af4) -- [Ouvrir dans Mirador](https://portail.biblissima.fr/m3/?theme=dark&iiif-content=https://portail.biblissima.fr/iiif/manifest/ark:/43093/descdbf571c2dcac868496312bf36d449401e4ac0af4)
 
-2. Biblissima - Collection d'enluminures issue d'une requête combinant les termes « Planète » et « Cosmographie » : [Page web](https://portail.biblissima.fr/fr/iconography) -- [Manifeste JSON (v2)](https://portail.biblissima.fr/iiif/manifest?descriptors=AND|569c70bc8f3f52b8966895b97ace86644dca444a,AND|86e65567ec9ac97ea2404af46cafa34d6f4920e7) -- [Ouvrir dans Mirador](https://portail.biblissima.fr/m3/?theme=dark&context=collection&iiif-content=https://portail.biblissima.fr/iiif/manifest?descriptors=AND|569c70bc8f3f52b8966895b97ace86644dca444a,AND|86e65567ec9ac97ea2404af46cafa34d6f4920e7)
+2. Biblissima - Collection d'enluminures issue d'une requête combinant les termes « Planète » et « Cosmographie » : [Page web](https://portail.biblissima.fr/fr/iconography) -- [Manifeste JSON (v2)](https://portail.biblissima.fr/iiif/manifest?descriptors=AND|569c70bc8f3f52b8966895b97ace86644dca444a,AND|86e65567ec9ac97ea2404af46cafa34d6f4920e7) -- [Ouvrir dans Mirador](https://portail.biblissima.fr/m3/?theme=dark&iiif-content=https://portail.biblissima.fr/iiif/manifest?descriptors=AND|569c70bc8f3f52b8966895b97ace86644dca444a,AND|86e65567ec9ac97ea2404af46cafa34d6f4920e7)
 
 
 ## Manifestes audio/vidéo

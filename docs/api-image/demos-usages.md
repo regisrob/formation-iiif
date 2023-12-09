@@ -24,7 +24,7 @@ Quelques exemples d'utilisation de l'API Image :
 
 <figure markdown>
   ![NGA National Neighbours](img/nga_collections.png)
-  <figcaption><a href="https://ai.harvardartmuseums.org/search/crane">National Neighbours</a> (NGA, Washington)</a></figcaption>
+  <figcaption><a href="https://nga-neighbors.library.cmu.edu/grid/nga_paintings">National Neighbours</a> (NGA, Washington)</a></figcaption>
 </figure>
 
 <figure markdown>

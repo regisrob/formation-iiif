@@ -65,8 +65,8 @@ C'est dans ce contexte, au tournant des années 2010, que IIIF émerge.
 
 L'API Image de IIIF apporte :
 
- * une syntaxe d'URL standard pour accéder aux images et les manipuler à distance
- * assez d'informations techniques pour qu'un visualiseur puisse afficher ces images dans différents contextes
+ * une **syntaxe d'URL standard** pour accéder à une image et la manipuler à distance
+ * des **informations techniques sur l'image** pour qu'un visualiseur puisse l'afficher dans différents contextes
  * des URL d'images "bidouillables" par un humain
  * des URL facilitant la mise en cache
  
