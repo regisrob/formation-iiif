@@ -1,8 +1,15 @@
 # Préambule
 
-Ce site a servi de support à la formation à IIIF organisée le mercredi 29 novembre 2023 (10h-17h30) dans le cadre des [deuxièmes journées annuelles du Cluster 1](https://projet.biblissima.fr/fr/actualites/journees-annuelles-2023-cluster-1-acquisition-corpus-sources-interoperables) de l'ÉquipEx Biblissima+.
+Ce site a servi de support à la formation à IIIF organisée le mercredi 29 novembre 2023 (10h-17h30) dans le cadre des [deuxièmes journées annuelles du cluster 1](https://projet.biblissima.fr/fr/actualites/journees-annuelles-2023-cluster-1-acquisition-corpus-sources-interoperables) de l'ÉquipEx Biblissima+. La première édition de cette formation a eu lieu le mercredi 30 novembre 2022 dans le cadre des [premières journées annuelles du cluster 1](https://projet.biblissima.fr/fr/actualites/journees-annuelles-2022-cluster-1-acquisition-corpus-sources-interoperables).
 
 Formateur et auteur du site : **Régis Robineau**.
+
+
+!!! info "A propos"
+
+    Cette ressource a été conçue et mise en forme pour permettre **l'auto-formation** de toute personne intéressée par IIIF, en complément des sessions de formation organisées en présentiel. 
+
+    Sauf mention contraire, les contenus de ce dépôt sont publiés sous **[Licence Ouverte / Open License 2.0](https://www.etalab.gouv.fr/licence-ouverte-open-licence/)** et donc librement réutilisables. Les fichiers source du site sont mis à disposition [sur Github](https://github.com/regisrob/formation-iiif).
 
 
 ## Objectifs de la formation
